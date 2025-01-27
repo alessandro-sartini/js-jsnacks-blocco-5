@@ -23,6 +23,7 @@ const students = [
 // Risultato: '3C'
 
 let studentMarcoClass
+
 students.forEach(el => {
 
   if (el.name === "Marco Lanci") {
@@ -30,4 +31,7 @@ students.forEach(el => {
   }  
 
 })
+
 console.log(studentMarcoClass)
+let studentMarco
+// students.filter(el=> (el.name==='Marco Lanci') (el.class): null )

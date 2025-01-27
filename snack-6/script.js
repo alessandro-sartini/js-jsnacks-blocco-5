@@ -37,3 +37,9 @@ zucchineLunghe.forEach( ( element ) => {
   zucchineLungheLi.innerHTML += `<li>zucchina: ${ type}, peso: ${weight}, lunghe: ${length } cm</li>`
 
 })
+
+
+let zucchineCorteAbr = []
+let zucchineLungheAbr = []
+zucchine.filter((el) => el.length >= 15 ? (zucchineCorteAbr.push(el)) : (zucchineLungheAbr.push(el) ))
+console.log(zucchineCorteAbr, zucchineLungheAbr)
