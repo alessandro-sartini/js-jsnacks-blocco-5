@@ -18,4 +18,22 @@ console.log(zucchineCorte)
 const zucchineLunghe= zucchine.filter((el)=>el.length>=15)
 console.log(zucchineLunghe)
 
+const zucchineCorteLi= document.getElementById('zucchineCorte')
+const zucchineLungheLi= document.getElementById('zucchineLunghe')
 
+zucchineCorte.forEach( ( element ) => {
+
+  //destructuring
+  let { type, weight, length } = element
+
+  zucchineCorteLi.innerHTML += `<li>zucchina: ${ type}, peso: ${weight}, lunghe: ${length } cm</li>`
+
+})
+zucchineLunghe.forEach( ( element ) => {
+
+  //destructuring
+  let { type, weight, length } = element
+
+  zucchineLungheLi.innerHTML += `<li>zucchina: ${ type}, peso: ${weight}, lunghe: ${length } cm</li>`
+
+})

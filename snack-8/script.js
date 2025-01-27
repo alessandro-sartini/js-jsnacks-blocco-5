@@ -24,8 +24,10 @@ const students = [
 
 let studentMarcoClass
 students.forEach(el => {
+
   if (el.name === "Marco Lanci") {
-    studentMarcoClass= el.class
+    studentMarcoClass = el.class
   }  
+
 })
 console.log(studentMarcoClass)
