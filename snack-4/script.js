@@ -11,7 +11,7 @@ const posts = [
 const authorNames = posts.map((element) => {
   
   return element.author
-
-
+  
 })
+
 console.log(authorNames)
