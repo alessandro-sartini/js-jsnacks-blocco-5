@@ -41,5 +41,6 @@ zucchineLunghe.forEach( ( element ) => {
 
 let zucchineCorteAbr = []
 let zucchineLungheAbr = []
-zucchine.filter((el) => el.length >= 15 ? (zucchineCorteAbr.push(el)) : (zucchineLungheAbr.push(el) ))
+
+zucchine.filter((el) => (el.length >= 15) ? (zucchineCorteAbr.push(el)) : (zucchineLungheAbr.push(el) ))
 console.log(zucchineCorteAbr, zucchineLungheAbr)

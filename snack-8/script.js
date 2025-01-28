@@ -33,5 +33,6 @@ students.forEach(el => {
 })
 
 console.log(studentMarcoClass)
-let studentMarco
+
+// let studentMarco
 // students.filter(el=> (el.name==='Marco Lanci') (el.class): null )
